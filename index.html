@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Weather App</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+
+
+</head>
+
+<body>
+
+<div class="weather-container">
+
+    <h1>Weather App</h1>
+
+    <div class="search-box">
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button id="searchButton">Search</button>
+    </div>
+
+    <div class="weather-card">
+
+        <div class="location">
+            <h2 id="cityName">Bhubaneswar</h2>
+
+        </div>
+
+        <div class="weather-icon">
+            <img id="weatherIcon"
+                 src="sun.png"
+                 alt="Weather">
+        </div>
+
+        <div class="temperature" id="temperature">
+            28°C
+        </div>
+
+        <div class="condition" id="condition">
+            Sunny
+        </div>
+
+        <div class="weather-details">
+
+            <div class="detail">
+                <img src="hum.png" alt="Humidity">
+                <p>Humidity</p>
+                <strong id="humidity">65%</strong>
+            </div>
+
+            <div class="detail">
+                <img src="wind.png" alt="Wind">
+                <p>Wind Speed</p>
+                <strong id="windSpeed">12 km/h</strong>
+            </div>
+
+            <div class="detail">
+                <img src="temp.png" alt="Temperature">
+                <p>Feels Like</p>
+                <strong id="feelsLike">30°C</strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
